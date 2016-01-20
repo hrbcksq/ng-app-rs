@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"styles"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"form",
+				"form-wrapper"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"w",
+				"writeMesssage"
+			],
+			[
+				"cha",
+				"chat_color"
+			],
+			[
+				"me",
+				"messages_color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"sass",
+				"grunt-sass"
+			],
+			[
+				"t",
+				"tasks"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"p",
+				"port"
+			],
+			[
+				"pr",
+				"printstring"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"bac",
+				"background-fixed"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Op",
+				"expressOptions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "The Zen of Angular\nAngular is built around the belief that declarative code is better than imperative when it comes to building UIs and wiring software components together, while imperative code is excellent for expressing business logic.\n\nIt is a very good idea to decouple DOM manipulation from app logic. This dramatically improves the testability of the code.\nIt is a really, really good idea to regard app testing as equal in importance to app writing. Testing difficulty is dramatically affected by the way the code is structured.\nIt is an excellent idea to decouple the client side of an app from the server side. This allows development work to progress in parallel, and allows for reuse of both sides.\nIt is very helpful indeed if the framework guides developers through the entire journey of building an app: From designing the UI, through writing the business logic, to testing.\nIt is always good to make common tasks trivial and difficult tasks possible.\nAngular frees you from the following pains:\n\nRegistering callbacks: Registering callbacks clutters your code, making it hard to see the forest for the trees. Removing common boilerplate code such as callbacks is a good thing. It vastly reduces the amount of JavaScript coding you have to do, and it makes it easier to see what your application does.\nManipulating HTML DOM programmatically: Manipulating HTML DOM is a cornerstone of AJAX applications, but it's cumbersome and error-prone. By declaratively describing how the UI should change as your application state changes, you are freed from low-level DOM manipulation tasks. Most applications written with Angular never have to programmatically manipulate the DOM, although you can if you want to.\nMarshaling data to and from the UI: CRUD operations make up the majority of AJAX applications' tasks. The flow of marshaling data from the server to an internal object to an HTML form, allowing users to modify the form, validating the form, displaying validation errors, returning to an internal model, and then back to the server, creates a lot of boilerplate code. Angular eliminates almost all of this boilerplate, leaving code that describes the overall flow of the application rather than all of the implementation details.\nWriting tons of initialization code just to get started: Typically you need to write a lot of plumbing just to get a basic \"Hello World\" AJAX app working. With Angular you can bootstrap your app easily using services, which are auto-injected into your application in a Guice-like dependency-injection style. This allows you to get started developing features quickly. As a bonus, you get full control over the initialization process in automated tests.",
+			"settings":
+			{
+				"buffer_size": 2700,
+				"line_ending": "Windows",
+				"name": "The Zen of Angular"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pre",
+		"selected_items":
+		[
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"sssas",
+				"Set Syntax: Sass"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjad",
+				"Set Syntax: Jade"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sssa",
+				"Set Syntax: Sass"
+			],
+			[
+				"sss",
+				"Set Syntax: Sass"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"format s",
+				"Format CSS: Expanded"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"s",
+				"SassBeautify"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/code/sandbox/splash",
+		"/E/code/sandbox/splash/source",
+		"/E/code/sandbox/splash/source/script",
+		"/E/code/sandbox/splash/source/server",
+		"/E/code/sandbox/splash/source/style",
+		"/E/code/sandbox/splash/source/view"
+	],
+	"file_history":
+	[
+		"/E/Workspaces/cache.txt",
+		"/C/Users/redpa_000/Desktop/temp/notes/list",
+		"/C/Users/redpa_000/Desktop/temp/stylebot.styles",
+		"/C/Users/redpa_000/AppData/Local/Microsoft/Windows/INetCache/IE/HFHTUYM8/client_log[1].txt",
+		"/C/Users/redpa_000/Desktop/stylebot.styles",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/WebApp1",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/Authzen.strings",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/ArtworkDB",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/localytics.sqlite",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/Info.plist",
+		"/D/downloads/13099685.urls",
+		"/D/downloads/13099685.xspf",
+		"/C/Users/redpa_000/.codeintel/README.txt",
+		"/D/downloads/wget_ruboard/wget.txt",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/.file",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/-125276105432547702.plist",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/skype-cache-501.ruslan_hrbcksq.Favourites.plist",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/adx_app_open",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/skype-cache-501.ruslan_hrbcksq.chat-meta-data-1230162.plist",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/report_3K.plist",
+		"/C/Users/redpa_000/AppData/Roaming/iFunbox_UserCache/temp_files/skype-cache-501.ruslan_hrbcksq.wFavourites.plist",
+		"/E/code/sandbox/splash/source/view/jade/index.jade",
+		"/E/code/sandbox/splash/build/partial/product-header.html",
+		"/E/code/sandbox/splash/source/script/data.json",
+		"/E/code/sandbox/splash/Gruntfile.js",
+		"/E/code/sandbox/splash/source/script/app.js",
+		"/E/code/sandbox/splash/source/script/directives.js",
+		"/E/code/sandbox/splash/source/style/sass/style.sass",
+		"/E/code/sandbox/brush-splash/scss/style.scss",
+		"/E/code/sandbox/brush-splash/public/index.html",
+		"/E/code/sandbox/brush-splash/server/server.js",
+		"/E/code/sandbox/brush-splash/Gruntfile.js",
+		"/E/code/sandbox/brush-splash/public/shortcuts.html",
+		"/E/code/sandbox/brush-splash/public/css/style.css",
+		"/E/code/sandbox/brush-splash/scss/style-rtb.scss",
+		"/E/code/sandbox/brush-splash/public/script/script.js",
+		"/E/code/sandbox/splash/source/view/jade/partial/product-header.jade",
+		"/C/Users/redpa_000/Desktop/temp/notes/english dictionary",
+		"/E/code/sandbox/shortcuts/public/index.html",
+		"/E/code/sandbox/shortcuts/public/css/style.css",
+		"/E/code/sandbox/brush/source/view/jade/index.jade",
+		"/E/code/sandbox/brush/gulpfile.js",
+		"/E/code/sandbox/brush/source/style/sass/style.sass",
+		"/E/code/sandbox/brush/build/styles/style.css",
+		"/E/code/sandbox/brush/source/styles/style.sass",
+		"/E/code/sandbox/notepad/base.html",
+		"/E/code/sandbox/splash/build/index.html",
+		"/F/english/word/a.htm",
+		"/E/code/sandbox/splash/build/style/style.css",
+		"/C/Program Files (x86)/Google/Chrome/Application/master_preferences",
+		"/E/code/sandbox/shortcuts/public/shortcuts.html",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/systemdata/system_temp/Rar$DIa0.159/bootstrap-theme.css",
+		"/D/systemdata/system_temp/Rar$DIa0.879/bootstrap.css.map",
+		"/D/systemdata/system_temp/Rar$DIa0.989/npm.js",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DomainModel/Entities/GlobalSettings.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowDevicesCollections.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowWrapper.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowStreamConfig.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowMediaTypesConstructor.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowGraph.cs",
+		"/E/Workspaces/MV/Andersen.MedVisor/Andersen.MedVisor.DirectShow/DirectShow/DirectShowControls.cs",
+		"/E/code/sandbox/splash/source/view/jade/locals.json",
+		"/E/code/sandbox/splash/source/view/jade/partial/header.jade",
+		"/E/code/sandbox/splash/build/style/bootstrap.css",
+		"/E/code/sandbox/splash/build/script",
+		"/E/code/sandbox/splash/build/style",
+		"/E/code/sandbox/splash/build/css/style.css",
+		"/E/code/sandbox/splash/jade/index.jade",
+		"/E/code/sandbox/splash/sass/style.sass",
+		"/E/code/sandbox/splash/public/css/style.css",
+		"/E/index.html/index.html",
+		"/E/code/sandbox/splash/public/index.html",
+		"/C/Users/redpa_000/Desktop/jade.html",
+		"/C/Users/redpa_000/Desktop/jade.jade",
+		"/E/code/sandbox/splash/sass/floats.sass",
+		"/E/code/sandbox/splash/sass/floats.haml",
+		"/E/code/sandbox/splash/public/script/chatscript.js",
+		"/E/code/sandbox/splash/sass/chat.sass",
+		"/E/Workspaces/sandbox/publish/approot/src/WebApplication1/project.json",
+		"/E/Workspaces/sandbox/publish/approot/web.config",
+		"/E/Workspaces/sandbox/ConsoleApplication1/WebApplication1/wwwroot/web.config",
+		"/E/Workspaces/sandbox/publish/approot/global.json",
+		"/E/Workspaces/sandbox/publish/approot/web.cmd",
+		"/E/Workspaces/sandbox/publish/approot/web",
+		"/E/code/sandbox/splash/script/chatscript.js",
+		"/C/Users/redpa_000/Desktop/Games.txt",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/User/OpenChrome.sublime-build",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/CSS Format/README.md",
+		"/E/code/sandbox/splash/scss/style.scss",
+		"/E/code/sandbox/splash/scss/style.sass",
+		"/E/code/sandbox/splash/package.json",
+		"/E/code/design/Gruntfile.js",
+		"/E/code/_temp/Gruntfile.js",
+		"/E/code/_temp/server/server.js",
+		"/E/code/design/server/server.js",
+		"/E/code/_temp/node_modules/grunt-contrib-uglify/README.md",
+		"/E/code/design/server/debug.js",
+		"/E/code/design/public/index.html",
+		"/E/code/_temp/public/shortcuts.html",
+		"/E/code/_temp/package.json",
+		"/E/code/_temp/node_modules/express/package.json",
+		"/D/downloads/webstorm/JetBrains WebStorm 11.0 Build 143.381 Incl.Crack - softasm.com/How To Install.txt",
+		"/D/downloads/webstorm/JetBrains WebStorm 11.0 Build 143.381 Incl.Crack - softasm.com/Patcher + Activation/ActivationCode.txt",
+		"/E/code/design/package.json",
+		"/E/code/design/scss/style.scss",
+		"/E/code/design/public/css/style.css",
+		"/E/code/design/design.html",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Packages/EasyMotion/README.md",
+		"/C/Users/redpa_000/AppData/Roaming/Sublime Text 3/Installed Packages/Theme - Brogrammer.sublime-package",
+		"/D/systemdata/skype/ruslan_hrbcksq/main.db",
+		"/D/systemdata/system_temp/Rar$DIa0.846/HomeController.ts",
+		"/D/systemdata/system_temp/Rar$DIa0.424/ApiResult.cs",
+		"/D/systemdata/system_temp/Rar$DIa0.846/HomeController.js",
+		"/D/systemdata/system_temp/Rar$DIa0.579/less.json",
+		"/D/systemdata/system_temp/Rar$DIa0.708/ShoppingCartViewModel.cs",
+		"/D/systemdata/system_temp/Rar$DIa0.089/SmartJsonResult.cs",
+		"/E/code/javascript/site/functions.js",
+		"/E/code/javascript/site/closures.js",
+		"/E/code/javascript/site/objects.js",
+		"/E/code/javascript/site/numbers.js",
+		"/E/code/javascript/site/null_undefined.js",
+		"/E/code/javascript/site/instructions.js",
+		"/E/code/javascript/site/types.js",
+		"/E/code/javascript/site/string.js",
+		"/E/code/javascript/site/script.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"?",
+			"0",
+			"required",
+			"value",
+			"\") ",
+			"\")",
+			"review",
+			"input",
+			"p",
+			"										|",
+			"input",
+			" \n",
+			"										|",
+			"\") ",
+			"1",
+			"text",
+			"\") ",
+			"1",
+			"input",
+			"input#",
+			"review.stars",
+			"review",
+			"список",
+			"list",
+			"list-style",
+			"list-style.",
+			"expand",
+			"\"\"",
+			"=\"\",",
+			"line",
+			"store.product",
+			"store.product.name",
+			"	",
+			"store.product.name",
+			"jump",
+			"clearfix",
+			"parti",
+			"73",
+			"sass:dist",
+			"ts_input",
+			"profile_full",
+			"profile_full_info",
+			"блочный",
+			"smoke",
+			";\n",
+			"white",
+			"font",
+			"';\n",
+			"position",
+			"width",
+			"привязать",
+			"B74AE348-2902-11E5-80F5-000C298AD30F",
+			"F4608145-1714-11E0-B195-18A90531858E",
+			"  ",
+			"F4608145-1714-11E0-B195-18A90531858E",
+			"CF93F8D8-5697-11E0-8A55-005056BA0008",
+			"content",
+			"visibi",
+			"..",
+			"mouse.vusb.absDisabled",
+			"keyboard.vusb.enable",
+			"sound.virtualDev",
+			"firmware",
+			"sata0:1.startConnected",
+			"ethernet0.virtualDev ",
+			"sound.virtualDev",
+			"firmware",
+			"keyboard.vusb.enable",
+			"mouse.vusb.absDisabled",
+			"smc.version",
+			"compilation",
+			"D:\\systemdata\\compilation",
+			"system.web"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"product.name",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"auto_name": "The Zen of Angular",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Jade Build/Jade.sublime-build",
+	"project": "design.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"singalr"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,32 @@
+.store-container {
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 800px; }
+
+.image {
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  right: 40px;
+  top: 20px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 5px gray;
+  background-size: cover;
+  background-position: center center; }
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 5px; }
+
+.panel-container {
+  padding-left: 10px; }
+
+.ng-invalid.ng-dirty {
+  border-color: #fa787e; }
+
+.ng-valid.ng-dirty {
+  border-color: #78fa89; }

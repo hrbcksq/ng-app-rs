@@ -1,0 +1,38 @@
+[
+	{
+      "name": "Dodecahedron",
+      "price": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente aliquam, laboriosam minima suscipit quos, ratione. Labore numquam porro ipsam cupiditate ipsa quaerat nisi itaque. Id ex maxime voluptatibus similique.",
+      "canPurchase": true,
+      "soldOut": false,
+      "images": [
+         {
+            "full": "https://c2.staticflickr.com/6/5048/5283851563_993faa06be_n.jpg"
+         }
+      ],
+      "reviews": [
+         {
+            "stars": 5,
+            "body": "A nice gem!",
+            "author": "tom@souer.com"
+         },
+         {
+            "stars": 2,
+            "body": "Dark gem!",
+            "author": "andy@hater.com"
+         }
+      ]
+   },
+   {
+      "name": "Pentagonal Gem",
+      "price": 3.55,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente aliquam, laboriosam minima suscipit quos, ratione. Labore numquam porro ipsam cupiditate ipsa quaerat nisi itaque. Id ex maxime voluptatibus similique.",
+      "canPurchase": true,
+      "soldOut": false,
+      "images": [
+         {
+            "full": "http://c2.staticflickr.com/4/3751/13883888341_5e77b42f98_b.jpg"
+         }
+      ]
+   }
+]

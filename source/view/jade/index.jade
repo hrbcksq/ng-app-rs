@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+html(lang="en", ng-app="store")
+head
+	meta(charset="UTF-8")
+	title= title
+	link(rel="stylesheet", href="style/bootstrap.css")
+	link(rel="stylesheet", href="style/style.css")
+	script(src="script/jquery.js")
+	script(src="script/bootstrap.js")
+body
+	.store-container(ng-controller="StoreController as store")
+		ul().list-group(ng-repeat="product in store.products | orderBy:'price'" ng-hide="product.soldOut")		
+				li.list-group-item
+					//- .product-header(ng-include="'partial/product-header.html'")
+					product-header
+					h2.inline {{product.price | currency}}
+					button.inline(ng-show="product.canPurchase").btn.btn-primary Purhase
+					section(ng-controller="PanelController as panel")
+						ul.btn-group.panel-container(data-toggle="buttons")
+							li.btn.btn-primary(ng-class="{ active: panel.isActive(1)}", ng-click="panel.selectTab(1)")
+								span nav-item-1
+							li.btn.btn-primary(ng-class="{ active: panel.isActive(2)}", ng-click="panel.selectTab(2)")
+								span nav-item-2
+							li.btn.btn-primary(ng-class="{ active: panel.isActive(3)}", ng-click="panel.selectTab(3)")
+								span nav-item-3								
+						.panel(ng-show="panel.isActive(1)")
+							h4 Description 1
+							blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						.panel(ng-show="panel.isActive(2)")
+							h4 Description 2
+							blockquote Minus aliquid sed voluptas ducimus dolorem obcaecati, quam ad.
+						.panel(ng-show="panel.isActive(3)")
+							h4 Description 3
+							blockquote Sint minus, non corporis at est, id laborum provident commodi.
+					.panel
+						h4 Reviews:
+							blockquote.blockquote(ng-repeat="review in product.reviews")
+								br 
+								b Stars: {{review.stars}} 								
+								span {{review.body}}
+								br
+								footer
+									cite  By: {{review.author}}
+							form(name="reviewForm", ng-submit="reviewForm.$valid && reviewCtrl.addReview(product)", ng-controller="ReviewController as reviewCtrl", novalidate)
+								blockquote							
+									br
+									b Stars: {{reviewCtrl.review.stars}} 								
+									span {{reviewCtrl.review.body}}
+									br
+									footer
+										cite  By: {{reviewCtrl.review.author}}
+								.panel.panel-default
+									.panel-heading Write:
+									.panel-body								
+										.form-group.form-inline
+											label(for="reviewRate") Rate gem:
+											span
+												input(type="radio", name="reviewRate", ng-model="reviewCtrl.review.stars", value="1", required="true") 
+												| 1 
+											span
+												input(type="radio", name="reviewRate", ng-model="reviewCtrl.review.stars", value="2", required="true") 
+												| 2 
+											span
+												input(type="radio", name="reviewRate", ng-model="reviewCtrl.review.stars", value="3", required="true") 
+												| 3 
+											span
+												input(type="radio", name="reviewRate", ng-model="reviewCtrl.review.stars", value="4", required="true") 
+												| 4 
+											span
+												input(type="radio", name="reviewRate", ng-model="reviewCtrl.review.stars", value="5", required="true") 
+												| 5 						
+										.form-group
+											label(for="review-input") Comment
+											input#review-input.form-control(ng-model="reviewCtrl.review.body" type="text" placeholder="Write a comment...", required="true")
+										.form-group.form-inline
+											label(for="author-input") Author
+											input#author-input.form-control(ng-model="reviewCtrl.review.author" type="email" placeholder="Enter email...", required="true")
+										.text-right
+											button#submit-review.btn.btn-primary(type="submit") Post review		
+										{{reviewForm.$valid}}
+
+	script(src="script/angular.js")
+	script(src="script/directives.js")
+	script(src="script/app.js")
+	
+
+	
+	
+	

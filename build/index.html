@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="store"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>ninja</title>
+  <link rel="stylesheet" href="style/bootstrap.css"/>
+  <link rel="stylesheet" href="style/style.css"/>
+  <script src="script/jquery.js"></script>
+  <script src="script/bootstrap.js"></script>
+</head>
+<body>
+  <div ng-controller="StoreController as store" class="store-container">
+    <ul ng-repeat="product in store.products | orderBy:'price'" ng-hide="product.soldOut" class="list-group">		
+      <li class="list-group-item">
+        <product-header></product-header>
+        <h2 class="inline">{{product.price | currency}}</h2>
+        <button ng-show="product.canPurchase" class="inline btn btn-primary">Purhase</button>
+        <section ng-controller="PanelController as panel">
+          <ul data-toggle="buttons" class="btn-group panel-container">
+            <li ng-class="{ active: panel.isActive(1)}" ng-click="panel.selectTab(1)" class="btn btn-primary"><span>nav-item-1</span></li>
+            <li ng-class="{ active: panel.isActive(2)}" ng-click="panel.selectTab(2)" class="btn btn-primary"><span>nav-item-2</span></li>
+            <li ng-class="{ active: panel.isActive(3)}" ng-click="panel.selectTab(3)" class="btn btn-primary"><span>nav-item-3								</span></li>
+          </ul>
+          <div ng-show="panel.isActive(1)" class="panel">
+            <h4>Description 1</h4>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+          </div>
+          <div ng-show="panel.isActive(2)" class="panel">
+            <h4>Description 2</h4>
+            <blockquote>Minus aliquid sed voluptas ducimus dolorem obcaecati, quam ad.</blockquote>
+          </div>
+          <div ng-show="panel.isActive(3)" class="panel">
+            <h4>Description 3</h4>
+            <blockquote>Sint minus, non corporis at est, id laborum provident commodi.</blockquote>
+          </div>
+        </section>
+        <div class="panel">
+          <h4>Reviews:
+            <blockquote ng-repeat="review in product.reviews" class="blockquote"><br/><b>Stars: {{review.stars}} 								</b><span>{{review.body}}</span><br/>
+              <footer>
+                <cite> By: {{review.author}}</cite>
+              </footer>
+            </blockquote>
+            <form name="reviewForm" ng-submit="reviewForm.$valid &amp;&amp; reviewCtrl.addReview(product)" ng-controller="ReviewController as reviewCtrl" novalidate="novalidate">
+              <blockquote>							<br/><b>Stars: {{reviewCtrl.review.stars}} 								</b><span>{{reviewCtrl.review.body}}</span><br/>
+                <footer>
+                  <cite> By: {{reviewCtrl.review.author}}</cite>
+                </footer>
+              </blockquote>
+              <div class="panel panel-default">
+                <div class="panel-heading">Write:</div>
+                <div class="panel-body">								
+                  <div class="form-group form-inline">
+                    <label for="reviewRate">Rate gem:</label><span>
+                      <input type="radio" name="reviewRate" ng-model="reviewCtrl.review.stars" value="1" required="true"/>1 </span><span>
+                      <input type="radio" name="reviewRate" ng-model="reviewCtrl.review.stars" value="2" required="true"/>2 </span><span>
+                      <input type="radio" name="reviewRate" ng-model="reviewCtrl.review.stars" value="3" required="true"/>3 </span><span>
+                      <input type="radio" name="reviewRate" ng-model="reviewCtrl.review.stars" value="4" required="true"/>4 </span><span>
+                      <input type="radio" name="reviewRate" ng-model="reviewCtrl.review.stars" value="5" required="true"/>5 						</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="review-input">Comment</label>
+                    <input id="review-input" ng-model="reviewCtrl.review.body" type="text" placeholder="Write a comment..." required="true" class="form-control"/>
+                  </div>
+                  <div class="form-group form-inline">
+                    <label for="author-input">Author</label>
+                    <input id="author-input" ng-model="reviewCtrl.review.author" type="email" placeholder="Enter email..." required="true" class="form-control"/>
+                  </div>
+                  <div class="text-right">
+                    <button id="submit-review" type="submit" class="btn btn-primary">Post review		</button>
+                  </div>{{reviewForm.$valid}}
+                </div>
+              </div>
+            </form>
+          </h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="script/angular.js"></script>
+  <script src="script/directives.js"></script>
+  <script src="script/app.js"></script>
+</body>
